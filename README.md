@@ -1,16 +1,22 @@
-# React + Vite
+🎲 Dice Game – React.js Interactive Web Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+An interactive dice game built using React.js where users select a number, roll a virtual dice, and earn or lose points based on their prediction. This project demonstrates core frontend concepts such as state management, event handling, conditional rendering, and game logic implementation.
 
-Currently, two official plugins are available:
+🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+• 🎯 Select a number between 1–6 before rolling the dice
+• 🎲 Random dice roll logic with dynamic UI updates
+• 📊 Real-time score tracking
+• ➕ Gain points when the selected number matches the dice value
+• ➖ Lose 2 points for incorrect guesses
+• 🔄 Reset score functionality
+• 📘 Show / Hide game rules
+• ⚡ Fast and optimized performance using Vite
 
-## React Compiler
+🛠️ Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+• React.js
+• JavaScript
+• HTML5
+• CSS3
+• Vite
